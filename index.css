@@ -1,0 +1,151 @@
+header {
+    height: 80px;
+    background-color: #ffffff;
+    color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 60px;
+}
+.navigation {
+    display: flex;
+    gap: 20px;
+    }
+.navigation ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    }
+.navigation li {
+    font-size: 24px;
+    cursor: pointer;
+    transition: color 0.3s;
+    }
+.navigation li:hover {
+        color: #B946FF;
+}
+.header{
+    display:inline-block;
+    justify-content: space-between;
+    padding: 0 60px;
+    cursor:pointer;
+}
+.logo{ 
+    margin-left: 60px;
+    margin-top: 10px
+    
+
+}
+.inline-block{
+    justify-content: space-between;
+}
+
+.flexContainers{
+    display:grid;
+    grid-row-gap: 36px;
+    justify-content: center;
+    padding: 36px;
+    color: white;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    max-width: 100%;
+    
+}
+.container1{
+    width: 1200px;
+    height: 281px;
+    background-image: url(/Images/image\ 61.png);
+}
+.container2{
+    width: 1200px;
+    height: 281px;
+    background-image: url(/Images/image\ 62.png);
+}
+.container3{  width: 1200px;
+    height: 281px;
+    background-image: url(/Images/image\ 63.png);
+}
+.footer{
+    height: 36px;
+    display: flex;
+    gap:20px;
+    background-color: white;
+    color: black;
+    align-items:center;
+    justify-content: space-between;
+    padding: 0 60px;
+    align-items:center;
+    list-style:none;
+    font-size: 20px;
+    font-family: 'Alegreya Sans SC', sans-serif;
+}
+.footerLeft:hover {
+    color: #686868;
+}
+.footerLeft{
+    display:flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    gap:20px;
+    cursor:pointer;
+    transition: color 0.3s;
+}
+
+.footerRight{
+    cursor:pointer;
+}
+.footerRight:hover {
+    color:#686868;
+}
+.heroimg{
+    margin:0 0
+}
+.button{
+    width: 304px;
+    height:96px;
+    text-align: center;
+    font-size: 24px ;
+    color:#ffffff;
+    border-radius: 8px;
+    border: 3px solid #FFF;
+    background-color: transparent;
+    margin-left: 832px;
+    cursor:pointer;
+}
+.Projects{
+    background-image: url(/Images/Group\ 105.png);
+    align-items: center;
+    background-size: cover;
+    min-width: 100%;
+}
+button:hover {
+    color:black;
+    background-color:#ffffff;
+}
+.projectTitle{
+    text-align: center;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.description{
+    width: 715px;
+    margin-top: 54px;
+    margin-left: 64px;
+    font-size:16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+@media only screen and (max-width: 600px) {
+.Projects{
+    display:flex;
+    max-width:100%;
+
+}
+}
+    
